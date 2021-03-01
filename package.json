@@ -1,0 +1,23 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "frontend-mentor-profile-card",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tunji545/frontend-mentor-profile-card.git"
+  },
+  "keywords": [
+    "Html",
+    "CSS"
+  ],
+  "author": "Olatunji Omisakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tunji545/frontend-mentor-profile-card/issues"
+  },
+  "homepage": "https://github.com/Tunji545/frontend-mentor-profile-card#readme"
+}
