@@ -1,0 +1,106 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #444;
+  font-size: 0.9rem;
+}
+
+main {
+  margin: 30vh 5% 0 5%;
+  border: 1px solid aqua;
+  border-radius: 10px;
+  width: 90%;
+}
+#section1 {
+  background-color: hsl(185, 75%, 46%);
+  border-radius: 10px;
+}
+figure {
+  padding-top: 100px;
+  text-align: center;
+}
+img {
+  border-radius: 30px;
+}
+#section2 {
+  margin-top: -35px;
+  background-color: #fff;
+  text-align: center;
+}
+#section2 p:first-child {
+  padding-top: 50px;
+  font-weight: 600;
+}
+span {
+  font-weight: 100;
+  margin-left: 5px;
+  color: gray;
+}
+#section2 p:last-child {
+  padding: 10px 0 15px 0;
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: #acacac;
+}
+#section3 {
+  background-color: #fff;
+  padding: 20px 0 65px 0;
+  border-radius: 0 0 10px 10px;
+}
+div {
+  background-color: #fff;
+  padding: 15px 0 15px 0;
+}
+#section3  p:first-child {
+  font-weight: bold;
+}
+#section3  p:last-child {
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: #aeaeae;
+  padding-top: 5px;
+}
+#first, #second, #third {
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+#first {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+#second {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#third {
+  margin-left: 5%;
+  margin-right: 10%;
+}
+footer {
+  clear: left;
+  margin-top: 100px;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%)
+}
+
+/* ********************DESKTOP***************** */
+@media (min-width: 376px) and (max-width: 1440px) {
+  main {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
